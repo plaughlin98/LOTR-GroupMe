@@ -52,7 +52,7 @@ def create_character(character_data):
     try:
         for key, value in character_data.items():
             if value == '' or value == 'NaN':
-                value = '"Unknown ' + key + '"'
+                value = 'UNKNOWN ' + key.upper()
             formatted_character[key] = value
     except KeyError:
         pass
