@@ -45,10 +45,9 @@ def MessageGroup(group, message):
     group.post(message)
 
 
-# all_groups = GetAllGroups()
+all_groups = GetAllGroups()
 
-# group = GetGroup(all_groups)
-
+group = GetGroup(all_groups)
 
 # print(group)
 
